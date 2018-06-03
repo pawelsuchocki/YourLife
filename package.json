@@ -1,0 +1,20 @@
+{
+  "name": "yourlife",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:sass": "node-sass -o css sass --watch",
+    "watch:browsersync": "browser-sync start --server --files * css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "onchange": "^4.0.0"
+  }
+}
